@@ -24,7 +24,7 @@ yamllint:
 
 hadolint:
   <<: *preflight
-  image: hadolint/hadolint
+  image: hadolint/hadolint:latest-debian
   before_script:
     - hadolint --version
   script:
